@@ -42,6 +42,8 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           version-strategy: ${{ github.event.inputs.force_release_type }}
           skip-on-empty: 'false'
+          git-user-name: "github-actions[bot]"
+          git-user-email: "github-actions[bot]@users.noreply.github.com"
 
       - name: Create GitHub Release
         if: ${{ github.event.inputs.create_github_release == 'true' && steps.changelog.outputs.skipped == 'false' }}
