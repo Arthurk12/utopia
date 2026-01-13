@@ -1,3 +1,12 @@
+## [1.1.2](https://github.com/Arthurk12/utopia/compare/v1.1.1...v1.1.2) (2026-01-13)
+
+
+### Bug Fixes
+
+* 4 ([ded3fba](https://github.com/Arthurk12/utopia/commit/ded3fbac42a2a9343b55a231af2a5c7d232c8d27))
+
+
+
 ## [1.1.1](https://github.com/Arthurk12/utopia/compare/v1.1.0...v1.1.1) (2026-01-13)
 
 
