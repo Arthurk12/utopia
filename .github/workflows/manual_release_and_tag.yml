@@ -3,16 +3,6 @@ name: Manual Release & Tag
 on:
   workflow_dispatch:
     inputs:
-      force_release_type:
-        description: 'Force version bump (leave empty for automatic based on commits)'
-        required: false
-        default: ''
-        type: choice
-        options:
-          - ''
-          - patch
-          - minor
-          - major
       create_github_release:
         description: 'Create a GitHub Release?'
         required: true
@@ -40,11 +30,10 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v5
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          version-strategy: ${{ github.event.inputs.force_release_type }}
           skip-on-empty: 'false'
           git-user-name: "github-actions[bot]"
           git-user-email: "github-actions[bot]@users.noreply.github.com"
-          commit-message: "chore: release {version}"
+          git-message: "chore: release {version}"
 
       - name: Create GitHub Release
         if: ${{ github.event.inputs.create_github_release == 'true' && steps.changelog.outputs.skipped == 'false' }}
