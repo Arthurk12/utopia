@@ -1,3 +1,16 @@
+## [2.1.0](https://github.com/Arthurk12/utopia/compare/v2.0.1...v2.1.0) (2026-01-14)
+
+
+### Features
+
+* 1 ([f77a420](https://github.com/Arthurk12/utopia/commit/f77a42082e273dbb454a16da43dfdecbaf962eb8))
+* 2 ([7a03522](https://github.com/Arthurk12/utopia/commit/7a03522fc5666c945ce52f6db1aa99c421383991))
+
+
+### Bug Fixes
+
+* 6 ([a2d4fd7](https://github.com/Arthurk12/utopia/commit/a2d4fd7a59aa4ca2db5c2a056da2adabfb3955a6))
+
 ## [2.0.1](https://github.com/Arthurk12/utopia/compare/v2.0.0...v2.0.1) (2026-01-13)
 
 
@@ -33,13 +46,4 @@
 ### Bug Fixes
 
 * 4 ([ded3fba](https://github.com/Arthurk12/utopia/commit/ded3fbac42a2a9343b55a231af2a5c7d232c8d27))
-
-## [1.1.1](https://github.com/Arthurk12/utopia/compare/v1.1.0...v1.1.1) (2026-01-13)
-
-
-### Bug Fixes
-
-* 1 ([74a2fd6](https://github.com/Arthurk12/utopia/commit/74a2fd663ae946c27ae8afb97fc20c1ea3cfb049))
-* 2 ([131ff34](https://github.com/Arthurk12/utopia/commit/131ff344c7935d360846c9798743862a35d7cd7c))
-* 3 ([1423ff1](https://github.com/Arthurk12/utopia/commit/1423ff15acfdbf06c7528276101e0a1907eeda61))
 
