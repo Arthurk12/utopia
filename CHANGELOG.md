@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/Arthurk12/utopia/compare/v2.1.1...v2.1.2) (2026-01-19)
+
+
+### Bug Fixes
+
+* **ci:** force bump of package-lock.json ([9dc480b](https://github.com/Arthurk12/utopia/commit/9dc480bdc842f7f56aacfb28331b04cb81dac2ad))
+
 ## [2.1.1](https://github.com/Arthurk12/utopia/compare/v2.1.0...v2.1.1) (2026-01-15)
 
 
@@ -35,15 +42,4 @@
 ### Bug Fixes
 
 * **tralalero-tralala:** test 2 ([b6f0186](https://github.com/Arthurk12/utopia/commit/b6f018647e32103193e0a1a5d8c15bbaa9a3822a))
-
-## [1.1.3](https://github.com/Arthurk12/utopia/compare/v1.1.2...v1.1.3) (2026-01-13)
-
-
-### ⚠ BREAKING CHANGES
-
-* **tralalero-tralala:** test
-
-### Bug Fixes
-
-* **tralalero-tralala:** test ([de5f1c8](https://github.com/Arthurk12/utopia/commit/de5f1c80be60cadd0fc4d75f1c14e4ec43b63f36))
 
