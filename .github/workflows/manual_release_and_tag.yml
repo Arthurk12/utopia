@@ -37,6 +37,7 @@ jobs:
           preset: 'conventionalcommits'
           skip-ci: 'false'
           tag-prefix: 'v'
+          version-file: './package.json, ./package-lock.json'
 
       - name: Create GitHub Release
         if: ${{ github.event.inputs.create_github_release == 'true' && steps.changelog.outputs.skipped == 'false' }}
