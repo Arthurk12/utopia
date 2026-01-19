@@ -1,45 +1,28 @@
-## [2.1.2](https://github.com/Arthurk12/utopia/compare/v2.1.1...v2.1.2) (2026-01-19)
+# Changelog
 
+All notable changes to this project will be documented in this file.
 
-### Bug Fixes
+## [1.0.1] - 2025-12-16
 
-* **ci:** force bump of package-lock.json ([9dc480b](https://github.com/Arthurk12/utopia/commit/9dc480bdc842f7f56aacfb28331b04cb81dac2ad))
+- ac5010c fix(build): externalize mui and emotion dependencies
+- c44eea2 fix(build): switch to UMD and externalize dependencies
+- 44bd58c fix(tooltips): adds missing tippy styles
+- 70f3eb2 ci(storybook): add deploy workflow for Storybook to gh-pages
+- ddd9cb5 fix(BBButton): ensure acessibility and stacked layout displacement
+- 728b9cb fix(spinner): wrong prop logic
+- cc174f3 fix: prevent props leaking to DOM
+- d8546d4 fix: main file entry point path
 
-## [2.1.1](https://github.com/Arthurk12/utopia/compare/v2.1.0...v2.1.1) (2026-01-15)
+## [1.0.0] - 2025-08-28
 
-
-### Bug Fixes
-
-* 7 ([ab48ae9](https://github.com/Arthurk12/utopia/commit/ab48ae9d9ecc5bb9d92c244b03236a38df865b6c))
-
-## [2.1.0](https://github.com/Arthurk12/utopia/compare/v2.0.1...v2.1.0) (2026-01-14)
-
-
-### Features
-
-* 1 ([f77a420](https://github.com/Arthurk12/utopia/commit/f77a42082e273dbb454a16da43dfdecbaf962eb8))
-* 2 ([7a03522](https://github.com/Arthurk12/utopia/commit/7a03522fc5666c945ce52f6db1aa99c421383991))
-
-
-### Bug Fixes
-
-* 6 ([a2d4fd7](https://github.com/Arthurk12/utopia/commit/a2d4fd7a59aa4ca2db5c2a056da2adabfb3955a6))
-
-## [2.0.1](https://github.com/Arthurk12/utopia/compare/v2.0.0...v2.0.1) (2026-01-13)
-
-
-### Bug Fixes
-
-* 5 ([3769685](https://github.com/Arthurk12/utopia/commit/3769685560c3fea564e7f116573e7194b040ffea))
-
-## [2.0.0](https://github.com/Arthurk12/utopia/compare/v1.1.3...v2.0.0) (2026-01-13)
-
-
-### ⚠ BREAKING CHANGES
-
-* **tralalero-tralala:** test 2
-
-### Bug Fixes
-
-* **tralalero-tralala:** test 2 ([b6f0186](https://github.com/Arthurk12/utopia/commit/b6f018647e32103193e0a1a5d8c15bbaa9a3822a))
-
+- b7af4c6 feat(build): enable code splitting, optimize bundle, and export theme utilities
+- 7fc1570 chore: add LGPLv3 license
+- 0f0d11e feat: add Modal and Spinner
+- 2b8b561 feat: add Navigation component
+- 7634d58 fix: toggle title alignment
+- 1c4a214 fix: add mapping to core css vars
+- 9bc040c add typography and divider component
+- 3e47dd4 implement Accordion, Checkbox, Select, Hint and Toggle
+- c994af7 button circle, stacked and default
+- 980a052 feat(button): add support for sizes
+- 50c8d88 feat(button): add support for colors
