@@ -1,3 +1,10 @@
+## [2.2.0](https://github.com/Arthurk12/utopia/compare/v2.1.2...v2.2.0) (2026-01-19)
+
+
+### Features
+
+* **ci:** Include input-file for CHANGELOG in release workflow ([6d15931](https://github.com/Arthurk12/utopia/commit/6d159312ba54c4d4e5b29bd7fbc208639bc9b8ae))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
